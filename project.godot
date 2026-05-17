@@ -11,8 +11,18 @@ config_version=5
 [application]
 
 config/name="godot_whisper_test"
+run/main_scene="uid://dibqfutwftm8j"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[audio]
+
+driver/enable_input=true
+driver/mix_rate=16000
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_whisper/plugin.cfg")
 
 [physics]
 
